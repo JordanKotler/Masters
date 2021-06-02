@@ -10,6 +10,7 @@ Code repository for Masters project
     - Parameter_Modification.m contains scripts that show how profit changes when varying budget as well as ratio of x_1 to x_2
     - Boxplot.m produces a boxplot for profit and also calculates coefficient of variance
     - Commuter_histogram.m produces a histogram for the commuter distances travelled to work because it looked better in Matlab than excel
+    - NB Demand_Profile.m must be run before Parameter_Modification.m and Car Packing Problem.ipynb in order to work.
 
 ## Datasets:
 
@@ -19,5 +20,6 @@ Code repository for Masters project
 ## Bin Packing Algorithm:
 
 - **Car Packing Problem.ipynb** is a Jupyter notebook file containing cells which process the data and use a bin packing algorithm to minimise bin sizes.
+- This script will not run unless you install Gurobi Optimiser 9.1
 
 
