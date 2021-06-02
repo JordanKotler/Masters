@@ -2,8 +2,6 @@
 Code repository for Masters project
 
 ## MATLAB CODE:
-
-- **MATLAB** is a folder with all the scripts written to generate plots shown in the results. Each of these is part of the 'simulation':
     - Demand_Profile.m is the script which generates a demand profile. This script is integrated into the MC simulation to reduce runtime of importing CSV data. The main purpose is therefore just to produce the plot.
     - MonteCarlo7kW.m is the Monte Carlo simulation which produces a surface plot of profit when 7kW chargers are installed
     - MonteCarlo22kW.m is the Monte Carlo simulation which produces a surface plot of profit when 22kW chargers are installed
@@ -12,9 +10,8 @@ Code repository for Masters project
     - Commuter_histogram.m produces a histogram for the commuter distances travelled to work because it looked better in Matlab than excel
     - NB Demand_Profile.m must be run before Parameter_Modification.m and Car Packing Problem.ipynb in order to work.
 
-## Datasets:
 
-- **Datasets** is a folder which contains the raw census data for commuter travel times (CT0641.xls) and start of commute journeys (StartTimes.ods)
+- **Datasets** used to inform the probabilities in the matlab scripts include: the raw census data for commuter travel times (CT0641.xls) and start of commute journeys (StartTimes.ods)
     
  
 ## Bin Packing Algorithm:
