@@ -2,6 +2,7 @@
 Code repository for Masters project
 
 ## MATLAB CODE:
+  - **Matlab** programs and algorithms for the simulations
     - Demand_Profile.m is the script which generates a demand profile. This script is integrated into the MC simulation to reduce runtime of importing CSV data. The main purpose is therefore just to produce the plot.
     - MonteCarlo7kW.m is the Monte Carlo simulation which produces a surface plot of profit when 7kW chargers are installed
     - MonteCarlo22kW.m is the Monte Carlo simulation which produces a surface plot of profit when 22kW chargers are installed
